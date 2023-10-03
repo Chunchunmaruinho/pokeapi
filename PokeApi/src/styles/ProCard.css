@@ -1,0 +1,175 @@
+.proCard {
+    background-color: rgb(57, 53, 53);
+    height: 100vh;
+}
+
+p {
+    margin: 0;
+    color: white;
+}
+
+.textSize {
+    color: gray;
+}
+
+
+.pokemonImageDiv {
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu p {
+    font-size: 20px;
+}
+
+
+.menu button {
+    font-size: 20px;
+}
+
+
+button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.pokedex img {
+    height: 25px;
+}
+
+
+button:active {
+    color: brown;
+}
+
+
+.pkmSizeDiv {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+
+.pkmSize {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.numberSize {
+    margin: 0;
+    font-size: 20px;
+}
+
+
+
+.pkmName {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+.pkmTypes {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+
+.type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(147, 13, 13);
+    border-radius: 5em;
+    height: 25px;
+    width: 110px;
+
+}
+
+
+.graphText p {
+    font-size: 15px;
+}
+
+
+.graphText {
+    height: 15px;
+}
+
+
+.graphDiv {
+    display: flex;
+    justify-content: center;
+}
+
+
+.fullGraph {
+    display: flex;
+    justify-content: start;
+    height: 15px;
+    width: 225px;
+    background-color: white;
+    border-radius: 0.5em;
+}
+
+
+.numberGraph {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 15px;
+    width: 100px;
+    background-color: black;
+    border-radius: 0.5em;
+}
+
+.numberGraph p {
+    padding-right: 5px;
+    font-size: 13px;
+}
+
+
+.graphColors {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.baseStats {
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+}
+
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+
+.graphTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 10%;
+}

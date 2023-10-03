@@ -1,0 +1,16 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.cardContainer input {
+    width: 1500px;
+    height: 50px;
+    padding-left: 20px;
+}

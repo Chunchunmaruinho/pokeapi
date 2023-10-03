@@ -1,0 +1,20 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 60px;
+    background-color: rgb(210, 61, 61);
+    font-family: 'Pokemon Solid', sans-serif;
+    gap: 10px;
+}
+
+
+
+.pokeball {
+    height: 45px;
+}
+
+
+
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');

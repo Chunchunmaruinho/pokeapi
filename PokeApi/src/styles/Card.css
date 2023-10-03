@@ -1,0 +1,29 @@
+.card {
+    height: 400px;
+    width: 350px;
+    background-color: rgb(103, 103, 109);
+    border-radius: 2em;
+    font-family: 'Pokemon Solid', sans-serif;
+    text-transform: capitalize;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+img {
+    height: 320px;
+}
+
+.card:hover {
+    background-color: rgb(210, 61, 61);
+    color: white;
+}
+
+
+
+
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
