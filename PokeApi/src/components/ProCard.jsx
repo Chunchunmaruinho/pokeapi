@@ -1,22 +1,25 @@
 import '../styles/ProCard.css'
-
+import { useNavigate } from 'react-router-dom';
 
 
 function ProCard() {
+    const navigatePokedex = () => {
 
+        navigate('/pokedex');
+    };
 
-
+    const navigate = useNavigate();
 
     return (
         <div className="proCard">
             <div className="menu">
-                <div className='pokedex'><button> <img src="https://img.icons8.com/?size=256&id=x3s0mSWBMJTc&format=png" alt="" />Pokedex</button></div>
+                <div className='pokedex'><button onClick={navigatePokedex}> <img src="https://img.icons8.com/?size=256&id=x3s0mSWBMJTc&format=png" alt="" />Pokedex</button></div>
                 <p className="pokedexNumber">#001</p>
             </div>
             <div className="pokemonImageDiv">
                 <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="" />
             </div>
-            <p className='pkmName'>Charizard</p>
+            <p className='pkmName'>LUCAS</p>
             <div className="pkmTypes">
                 <p className='type'>fire</p>
             </div>
